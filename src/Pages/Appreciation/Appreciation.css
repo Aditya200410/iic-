@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#081E30 ;
+}
+.head{
+color: #FFF;
+font-family: Montserrat;
+font-size: 53px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.middle{
+    height: 487px;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin: auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.child{
+    border-radius: 53px;
+background: rgba(0, 0, 0, 0.68);
+height: 328px;
+width: 450px;
+position: absolute;
+bottom: 0;
+right:0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+padding: 25px;
+color: #FFF;
+}
+.parent{
+    width: 100%;
+    margin-left: 0px;
+    z-index: 0;
+}
+#mona{
+    font-size: 10px;
+}
+#monali{
+    font-size: 31px;
+}
+.parent{
+    position: relative;
+}
+h1{
+    font-size:33px;
+}
+@media only screen and (max-width: 480px){
+   .middle{
+    margin: auto;
+    /* margin-left: 3px;
+    margin-right: 3px; */
+    height: 300px;
+    width: 95%;
+   }
+
+   .parent{
+    margin: 7px;
+   }
+
+   .child{
+    border-radius: 10px;
+    height: 100px;
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 3px;
+    font-size: 8px;
+   }
+   h1{
+    font-size: 20px;
+   }
+   #mona{
+    font-size: 5px;
+   }
+   #monali{
+    font-size:15px;
+ }
+}

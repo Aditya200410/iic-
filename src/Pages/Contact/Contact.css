@@ -1,0 +1,188 @@
+/* Scoped/Unique styles for Contact component */
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/* Resetting default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #021E30;
+}
+
+*{
+    box-sizing: border-box;
+} 
+
+/* Form styles */
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #011522;
+    padding: 1rem;
+    margin: 40px auto;
+    z-index: 1;
+    max-width: 390px;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5rem;
+    background-color: #000c12;
+    color: #3e3d3c;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.ContactForm button {
+    background-color: #010001;
+    color: #f4f4f4;
+    padding: 0.8rem 1.5rem;
+    border-radius: 7px;
+    border: 0;
+    position: relative;
+    /* left: 15rem; */
+}
+
+.ContactForm button:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+    color: #000c12;
+    transform: scale(1.2);
+    transition: all ease-in-out 0.2s;
+    font-weight: 500;
+}
+
+h1 {
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Media query */
+@media screen and (min-width: 591px) {
+    .ContactForm {
+        max-width: 400px;
+        padding: 2rem;
+    }    
+}
+
+/* Card container */
+.CardContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+/* Card styles */
+.ContactCard {
+    background: #021724;
+    width: 26rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #010e16;
+    box-shadow: 0 10px 35px #010e16;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.ContactCard:hover {
+    transform: translateY(-10px);
+}
+
+/* User picture styles */
+.UserPicture {
+    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid #7cdacc;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.UserPicture img {
+    width: 100%;
+    fill: currentColor;
+}
+
+.UserPicture:hover {
+    transform: scale(1.5);
+    transition: all ease-in-out 0.3s;
+}
+
+/* Name styles */
+.UserName {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Scoped/Unique styles for YourComponent */
+
+.UserName span {
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.SocialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.SocialBtn {
+    width: 3rem;
+}
+
+.SocialBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.SocialBtn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SocialBtn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.SocialBtn::after {
+    background-color: #fff;
+}
+
+.SocialBtn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+

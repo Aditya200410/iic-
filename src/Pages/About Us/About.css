@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #021E30;
+}
+*{
+    box-sizing: border-box;
+}
+.AboutContainer{
+    margin-top: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+    margin: 5rem auto;
+    background: #021a29;
+}
+.AboutPic {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* box-shadow: 0 10px 15px rgba(0, 0, 0, 0.899); */
+}
+.AboutPic img {
+    width: 44rem;
+    border-radius: 5px;
+}
+.AboutInfo{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.card{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Container{
+    margin-top: 2rem;
+}
+/* h1{
+    text-align: start;
+    margin-left: 4rem;
+} */
+
+.aboutHeading {
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    line-height: 6rem;
+}
+
+@media screen and (max-width:768px){
+    .AboutInfo{
+        font-size: 0.9rem;
+    }
+    .AboutPic img{
+        width: 34rem;
+    }
+}
+@media screen and (max-width:600px){
+    .AboutInfo{
+        font-size: 1.3rem;
+        margin-top: -75px;
+        margin-left: 37px;
+        margin-right: 20px;
+    }
+    .AboutPic img{
+        width: 28rem;
+    }
+    .AboutContainer{
+        flex-direction: column;
+    }
+}

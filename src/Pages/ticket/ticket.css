@@ -1,0 +1,101 @@
+.t{
+  padding: 5%;
+  width:100%;
+  height: 55vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4,33,47);
+}
+.tmain{
+  background-color: rgb(2,22,33);
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  border-radius: 10px;
+}
+
+.tleft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+ border-right: 4px solid white;
+border-right-style: dashed;
+
+
+}
+  .horizontal-text {
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    font-size: 30px;
+    color: white;
+    
+  }
+  
+
+.tp{
+  font-size: 40px;
+  color: white;
+}
+.tf{
+  width: 400px;
+  color: grey;
+  border: none;
+  border-bottom: 2px solid white;
+background-color: transparent;
+height: 34px;
+}
+.tright{
+  display: flex;
+  flex: 3;
+  justify-content: space-around;
+  align-items: center;
+ 
+  flex-direction: column;
+}
+
+.t2{
+  display: flex;
+  flex-direction: column;
+
+}
+.t3{
+  display: flex;
+
+justify-content: center;
+
+
+}
+.sb{
+  width: 100px;
+ height: 25px;
+margin-top: 5%;
+border: none;
+  background-color: darkslateblue;
+  border-radius: 20px;
+}
+
+.t4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40%;
+}
+
+.d1{
+  border: none;
+  width: 150px;
+  height: 34px;
+  background-color: cyan;
+  font: large;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none; 
+  
+}
+

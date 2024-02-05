@@ -1,0 +1,109 @@
+.event-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #f9f9f9;
+}
+
+/* Carousel styles */
+.event-carousel {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Individual slide sections */
+.event-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.22); /* Change background color as needed */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow or change values as preferred */
+}
+
+.event-slide-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.event-slide-right {
+    flex: 1;
+}
+
+/* Carousel slide content */
+.event-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #faf6f6; /* Change color as needed */
+}
+
+.event-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fdfdfa; /* Change color as needed */
+}
+
+/* Font ID styles */
+.event-font {
+    font-family: Arial, sans-serif; /* Update font family */
+    /* Additional font styles */
+}
+
+/* Image styles */
+.event-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add border radius if needed */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add shadow or change values as preferred */
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    .event-title {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .event-carousel {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .event-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .event-slide-left {
+        order: 2;
+    }
+
+    .event-slide-right {
+        order: 1;
+        margin-bottom: 1rem;
+    }
+
+    .event-heading {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+  
+    .event-content {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .event-image {
+        width: 100%;
+        height: auto;
+    }
+}

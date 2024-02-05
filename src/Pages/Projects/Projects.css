@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .head {
+    height: 233px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #pro {
+    color: #fff;
+    font-family: Arial;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  #here {
+    color: rgba(255, 255, 255, 0.67);
+    font-family: Arial;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  body {
+    background-color: #021e30;
+  }
+  
+  .outer {
+    display: flex;
+    flex-direction: row; /* Show side by side on larger screens */
+    gap: 0px; /* Gap between image and content */
+    padding: 20px; /* Padding around each item */
+    align-items: center;
+  }
+  
+  .pic,
+  .content {
+    flex: 1; /* Allow image and content to grow equally */
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .pic img {
+    width: 60%; /* Ensure the image takes full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px;
+  }
+  
+  .last {
+    height: 1px;
+    color: #fff;
+    font-family: Andika;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .outer {
+      flex-direction: column; /* Stack items on smaller screens */
+    }
+  
+    .pic,
+    .content {
+      width: 100%; /* Full width on smaller screens */
+      padding: 5px;
+    }
+  
+    .content {
+      font-size: 16px;
+      padding: 10px;
+      margin-top: -23px;
+    }
+  
+    #pro {
+      font-size: 30px;
+    }
+  
+    #here {
+      font-size: 15px;
+    }
+  }
+  

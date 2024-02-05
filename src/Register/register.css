@@ -1,0 +1,234 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.back{
+    background: url(https://www.ideainnovationcell.org/Induction%202023/Images/induction-poster.png);
+    width: 100%;
+    height: 90vh;
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+   font-size: xx-large;
+}
+.bt{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;  
+}
+.getstarted{
+    width: 100px;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.getstarted:hover{
+    width: 100px;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.watchvideo{
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.watchvideo:hover{
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.page2{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: rgb(54,65,129);
+background: linear-gradient(90deg, rgba(54,65,129,1) 100%, rgba(35,74,152,1) 100%, rgba(86,52,129,1) 100%);margin-top: -10%;
+}
+.ind{
+    background: rgb(0,114,194);
+    background: linear-gradient(90deg, rgba(0,114,194,1) 0%, rgba(52,86,129,1) 100%, rgba(0,255,154,1) 100%);
+    display: flex;
+    border-radius: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
+    -moz-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85); padding: 10%;
+    width: 700px;
+    height: 600px;
+    margin: 5% 5%  5% ;
+}
+.title{
+    margin-top: 5%;
+    padding: 5%;
+    color: antiquewhite;
+}
+.glow-on-hover {
+    width: 150px;
+    height: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: none;
+    padding: 3%;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.brag{
+    background-color: black;
+    color: white;
+    display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+}
+.page3{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.a{
+   
+  width: 200px;
+  height: 150px;
+  padding: 3% 3% 3% 3%;
+    color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+flex-direction: column;
+
+}
+.pdf{
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-decoration: inherit;
+    background-color: cyan;
+}
+.pdf:hover{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #00ffd5;
+    color: black;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-decoration: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    font-size: larger;
+    margin: 5%;
+    width: 100%;
+}
+
+.page4{
+    padding: 5%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:space-between; 
+}
