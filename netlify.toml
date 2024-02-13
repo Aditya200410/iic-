@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/orientation"
+  to = "/orientation"
+  status = 301
+  force = true
+
