@@ -18,6 +18,7 @@ import Ticket from "./Pages/ticket/Ticket.jsx";
 import Register from "./Register/Register";
 import Form from "./Pages/form/Form";
 import log from "./Pages/login/log";
+import "../src/fonts/potra-font.css";
 
 
 const App = () => {

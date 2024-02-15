@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Potra';
+    src: url('./Potra.eot');
+    src: local('Potra'),
+        url('Potra.eot?#iefix') format('embedded-opentype'),
+        url('./Potra.woff2') format('woff2'),
+        url('./Potra.woff') format('woff'),
+        url('Potra.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
