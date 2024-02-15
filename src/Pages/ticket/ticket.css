@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/potra');
+
 .t{
   padding: 5%;
   width:100%;
@@ -7,6 +9,9 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(4,33,47);
+}
+button{
+  cursor: pointer;
 }
 .tmain{
   background-color: rgb(2,22,33);
@@ -23,7 +28,7 @@
   flex: 1;
  border-right: 4px solid white;
 border-right-style: dashed;
-
+font-family: 'Potra', sans-serif;
 
 }
   .horizontal-text {
@@ -31,13 +36,14 @@ border-right-style: dashed;
     text-orientation: upright; 
     font-size: 30px;
     color: white;
-    
+    font-family: 'Potra', sans-serif;
   }
   
 
 .tp{
   font-size: 40px;
   color: white;
+  font-family: 'Potra', sans-serif;
 }
 .tf{
   width: 400px;

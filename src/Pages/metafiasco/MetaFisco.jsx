@@ -33,7 +33,7 @@ VSSUT, Burla</div>
         </div>
         <div className="metaticket">
 
-<button className='metabtn'><a href='/ticket'>GET YOUR FREE TICKET</a> </button>
+        <a href='/ticket'><button className='metabtn'>GET YOUR FREE TICKET </button></a>
 
         </div>
        

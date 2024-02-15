@@ -26,7 +26,7 @@ const Contact = () => {
                     <div className='UserPicture'>
                         <img className='imc' src={img2} alt='User 2' />
                     </div>
-                    <p className='UserName'>Sandip  Mohanty
+                    <p className='UserName'>Sandip Kr.  Mohanty
                         <span>Ast.Secretary<br /> Idea Innovation Cell
                         </span>
                         <span className='sp'>6371409570

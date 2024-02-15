@@ -31,6 +31,7 @@ const Ticket = () => {
 
   const handleDisplayButtonClick = () => {
     setDisplayedName(userName);
+    alert("ticket generated")
   };
 
   const handleDownloadButtonClick = () => {
