@@ -90,7 +90,7 @@ const Ticket = () => {
             <div className="t3">
               <div className="t4">
                 <button className="sb" onClick={handleDisplayButtonClick}>
-                  Display{" "}
+                  Generate{" "}
                 </button>
               </div>
               {displayedName && (

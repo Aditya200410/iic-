@@ -10,7 +10,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #021E30;
 }
-
+.sp{
+    font-size: 10px;
+}
+span{
+    font-size: 10px;
+}
 *{
     box-sizing: border-box;
 } 

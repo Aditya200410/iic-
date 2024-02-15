@@ -24,7 +24,7 @@ About Once you have tasted flight, you will forever walk the earth with your eye
             </div>
             <div className="metaleft">
             <div className="h">WHERE</div>
-<div className="where">Biju Pattnaik E-Learning Centre
+<div className="where">SIR VISVESWARAYA AUDITORIUM
 VSSUT, Burla</div>
 <div className="h">WHEN</div>
 <div className="when">17th February 2024 at 3:00PM</div>

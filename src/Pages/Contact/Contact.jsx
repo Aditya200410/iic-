@@ -4,8 +4,7 @@ import "./Contact.css";
 import img1 from "./debankar.png";
 import img2 from "./sandip.png";
 import img3 from "./satviki.png";
-import insta from "./instagram.png";
-import linkedin from "./linkedin.png";
+
 
 const Contact = () => {
     return (
@@ -18,24 +17,24 @@ const Contact = () => {
                     <p className='UserName'>Debankar 
                         <span>Secretary<br /> Idea Innovation Cell
                         </span>
+                        <span className='sp'>6372777905<br /> debankarshubhram@gmail.com
+                        </span>
                     </p>
-                    <div className='SocialMedia'>
-                        <a href='https://www.instagram.com/space_researcher1'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
-                        <a href='https://www.linkedin.com/in/debankar-shubhram-8025ab238/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
-                    </div>   
+                     
                 </div>
                 <div className='ContactCard'>
                     <div className='UserPicture'>
                         <img className='imc' src={img2} alt='User 2' />
                     </div>
-                    <p className='UserName'>sandip
+                    <p className='UserName'>sandip ku. mohanty
                         <span>Ast.Secretary<br /> Idea Innovation Cell
                         </span>
+                        <span className='sp'>6371409570
+<br /><span className='sp'>sandip.mohanty2004@gmail.com</span> 
+                        </span>
+                        
                     </p>
-                    <div className='SocialMedia'>
-                        <a href='https://www.instagram.com/missmohanty__'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
-                        <a href="https://www.linkedin.com/in/sandip-kumar-mohanty-6b1582232?trk=contact-info"><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
-                    </div>   
+                     
                 </div>
             </div>
             <form method='post' className='ContactForm'>
@@ -46,11 +45,11 @@ const Contact = () => {
                     <p className='UserName'>satkviki
                         <span>Ast.Secretary<br /> Idea Innovation Cell
                         </span>
+                        <span className='sp'>8847800176
+<br /><span className='sp'>satviki.pradhan@gmail.com</span> 
+                        </span>
                     </p>
-                    <div className='SocialMedia'>
-                        <a href='https://www.instagram.com/missmohanty__'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
-                        <a href='https://www.linkedin.com/in/amisha-mohanty-2452b91a0/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
-                    </div>   
+                     
                 </div>
             </form>
         </div>
