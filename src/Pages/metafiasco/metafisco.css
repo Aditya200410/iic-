@@ -73,5 +73,7 @@ box-shadow: transparent;
         width: 400px;
         height: 400px;
     }
-    
+    .in{
+        margin-left: 2%;
+    }
     }

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import logo from "./OIP.jpeg";
+import logo from "./Ticket.png";
 import "./ticket.css";
 const Ticket = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -47,10 +47,10 @@ const Ticket = () => {
       tempContext.drawImage(originalImage, 0, 0);
   
       tempContext.fillStyle = "white";
-      tempContext.font = "bold 18px sans-serif";
+      tempContext.font = "bold 48px sans-serif";
       tempContext.textAlign = "center";
       tempContext.textBaseline = "middle";
-      tempContext.fillText(displayedName, 75, 75);
+      tempContext.fillText(displayedName, 1100, 475);
   
       const dataUrl = tempCanvas.toDataURL("image/png");
   
@@ -71,7 +71,7 @@ const Ticket = () => {
           </div>
           <div className="tright">
             <div className="t1">
-              <p className="tp">META FAISCO-2024</p>
+              <p className="tp">CIELO INIFINITO-2024</p>
             </div>
             <div className="t2">
               <input

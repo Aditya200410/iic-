@@ -13,7 +13,7 @@ const Contact = () => {
             <div className='CardContainer'>
                 <div className='ContactCard'>
                     <div className='UserPicture'>
-                        <img src={img1} alt='User 1' />
+                        <img className='imc' src={img1} alt='User 1' />
                     </div>
                     <p className='UserName'>Debankar 
                         <span>Secretary<br /> Idea Innovation Cell
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className='ContactCard'>
                     <div className='UserPicture'>
-                        <img src={img2} alt='User 2' />
+                        <img className='imc' src={img2} alt='User 2' />
                     </div>
                     <p className='UserName'>sandip
                         <span>Ast.Secretary<br /> Idea Innovation Cell
@@ -34,7 +34,7 @@ const Contact = () => {
                     </p>
                     <div className='SocialMedia'>
                         <a href='https://www.instagram.com/missmohanty__'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
-                        <a href='https://www.linkedin.com/in/amisha-mohanty-2452b91a0/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
+                        <a href="https://www.linkedin.com/in/sandip-kumar-mohanty-6b1582232?trk=contact-info"><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
                     </div>   
                 </div>
             </div>
