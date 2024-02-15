@@ -14,7 +14,7 @@ const Contact = () => {
                     <div className='UserPicture'>
                         <img className='imc' src={img1} alt='User 1' />
                     </div>
-                    <p className='UserName'>Debankar 
+                    <p className='UserName'>Debankar  Shubhram
                         <span>Secretary<br /> Idea Innovation Cell
                         </span>
                         <span className='sp'>6372777905<br /> debankarshubhram@gmail.com
@@ -26,7 +26,7 @@ const Contact = () => {
                     <div className='UserPicture'>
                         <img className='imc' src={img2} alt='User 2' />
                     </div>
-                    <p className='UserName'>sandip ku. mohanty
+                    <p className='UserName'>Sandip  Mohanty
                         <span>Ast.Secretary<br /> Idea Innovation Cell
                         </span>
                         <span className='sp'>6371409570
@@ -42,8 +42,8 @@ const Contact = () => {
                     <div className='UserPicture'>
                         <img src={img3} alt='User 2' />
                     </div>
-                    <p className='UserName'>satkviki
-                        <span>Ast.Secretary<br /> Idea Innovation Cell
+                    <p className='UserName'>Satviki Pradhan
+                        <span>Asst.Secretary<br /> Idea Innovation Cell
                         </span>
                         <span className='sp'>8847800176
 <br /><span className='sp'>satviki.pradhan@gmail.com</span> 
