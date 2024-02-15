@@ -2,7 +2,9 @@ import React, { useState, useRef } from "react";
 import logo from "./Ticket.png";
 import "./ticket.css";
 import Resizer from "react-image-file-resizer";
+
 const Ticket = () => {
+  
   const [selectedFile, setSelectedFile] = useState(null);
 
   const handleFileChange = (event) => {
@@ -35,6 +37,11 @@ const Ticket = () => {
 
   const handleDisplayButtonClick = () => {
     setDisplayedName(userName);
+    if(userName)
+    alert("ticket generated")
+  else{
+    alert(" enter your name")
+  }
   };
   const resizeFile = (file) =>
     new Promise((resolve) => {
