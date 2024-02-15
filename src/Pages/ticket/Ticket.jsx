@@ -67,11 +67,11 @@ const Ticket = () => {
   
         tempContext.drawImage(originalImage, 0, 0);
   
-        tempContext.fillStyle = "white";
+        tempContext.fillStyle = "black";
         tempContext.font = "bold 48px sans-serif";
         tempContext.textAlign = "center";
         tempContext.textBaseline = "middle";
-        tempContext.fillText(displayedName, 1100, 475);
+        tempContext.fillText(displayedName, 1120, 350);
   
         // Save the current context state
         tempContext.save();
@@ -161,6 +161,7 @@ const Ticket = () => {
                         maxWidth: '50%',
                         maxHeight: '50%',
                         objectFit: 'contain',
+                        display:"none"
                       }}
                     />
                   </div>
