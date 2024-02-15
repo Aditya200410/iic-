@@ -106,7 +106,7 @@ const Ticket = () => {
                     />
                   </div>
                   <button className="d1" onClick={handleDownloadButtonClick}>
-                    Download Photo
+                    Download
                   </button>
                 </div>
               )}

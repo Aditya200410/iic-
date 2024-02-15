@@ -1,5 +1,6 @@
 import React from 'react'
 import "./metafisco.css";
+import Contact from '../Contact/Contact';
 const MetaFisco = () => {
   return (
     <>
@@ -36,7 +37,11 @@ VSSUT, Burla</div>
         </div>
        
     </div>
-    
+    <div className="contactus"><h1>CONTACT US</h1></div>
+       <div className="in">For help in any kind of Query related to the  Induction-2024 you may contact :</div>
+       
+
+    <Contact/>
     
     
     

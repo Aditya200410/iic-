@@ -86,12 +86,15 @@ border: none;
 }
 
 .d1{
-  border: none;
-  width: 150px;
-  height: 34px;
-  background-color: cyan;
-  font: large;
-  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+ margin-top: 5%;
+ border: none;
+   background-color: darkslateblue;
+   border-radius: 20px;
+   position: relative;
+   left: 10px;
+   
 }
 
 input:focus {
@@ -99,3 +102,24 @@ input:focus {
   
 }
 
+@media only screen and (max-width: 768px) {
+    
+  .t{
+    width: 100%;
+    height: 70vh;
+  
+  }
+  .tmain{
+    background-color: rgb(2,22,33);
+    width: 110%;
+  }
+  .tp{
+    width: 100%;
+    font-size: 20px;
+
+  }
+  .tf{
+    margin-left: 15px;
+    width: 200px;
+  }
+  }

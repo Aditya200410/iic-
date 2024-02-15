@@ -46,9 +46,9 @@ const Home = () => {
             </div>
           </div>
           <div className="middleColumn">
-            <Link to="/about" className="explore-link">
+            <Link to="/meta" className="explore-link">
               <p className="paragraph">
-                Explore Us!
+                Join For Orientation
               </p>
             </Link>
           </div>

@@ -1,8 +1,9 @@
 
 import React from 'react';
 import "./Contact.css";
-import img1 from "./img3.jpg";
-import img2 from "./img18.jpg";
+import img1 from "./debankar.png";
+import img2 from "./sandip.png";
+import img3 from "./satviki.png";
 import insta from "./instagram.png";
 import linkedin from "./linkedin.png";
 
@@ -14,21 +15,21 @@ const Contact = () => {
                     <div className='UserPicture'>
                         <img src={img1} alt='User 1' />
                     </div>
-                    <p className='UserName'>Subhransu Ranjan Das
+                    <p className='UserName'>Debankar 
                         <span>Secretary<br /> Idea Innovation Cell
                         </span>
                     </p>
                     <div className='SocialMedia'>
                         <a href='https://www.instagram.com/space_researcher1'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
-                        <a href='https://www.linkedin.com/in/subhransuranjandas/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
+                        <a href='https://www.linkedin.com/in/debankar-shubhram-8025ab238/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
                     </div>   
                 </div>
                 <div className='ContactCard'>
                     <div className='UserPicture'>
                         <img src={img2} alt='User 2' />
                     </div>
-                    <p className='UserName'>Amisha Mohanty
-                        <span>Secretary<br /> Idea Innovation Cell
+                    <p className='UserName'>sandip
+                        <span>Ast.Secretary<br /> Idea Innovation Cell
                         </span>
                     </p>
                     <div className='SocialMedia'>
@@ -38,11 +39,19 @@ const Contact = () => {
                 </div>
             </div>
             <form method='post' className='ContactForm'>
-                <h1>Contact Here</h1>
-                <input type='text' name='name' placeholder='Name' />
-                <input type='text' name='subject' placeholder='Subject' />
-                <textarea name='message' cols='30' rows='18' placeholder='Message' />
-                <button type='submit'>Send</button>
+            <div className='ContactCard'>
+                    <div className='UserPicture'>
+                        <img src={img3} alt='User 2' />
+                    </div>
+                    <p className='UserName'>satkviki
+                        <span>Ast.Secretary<br /> Idea Innovation Cell
+                        </span>
+                    </p>
+                    <div className='SocialMedia'>
+                        <a href='https://www.instagram.com/missmohanty__'><img src={insta} className='SocialBtn' alt='Instagram' /></a>
+                        <a href='https://www.linkedin.com/in/amisha-mohanty-2452b91a0/'><img src={linkedin} className='SocialBtn' alt='LinkedIn' /></a>
+                    </div>   
+                </div>
             </form>
         </div>
     );
