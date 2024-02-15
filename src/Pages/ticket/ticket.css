@@ -9,9 +9,11 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(4,33,47);
+  font-family: 'Potra', sans-serif;
 }
 button{
   cursor: pointer;
+
 }
 .tmain{
   background-color: rgb(2,22,33);
@@ -19,6 +21,7 @@ button{
   height: 50vh;
   display: flex;
   border-radius: 10px;
+  font-family: 'Potra', sans-serif;
 }
 
 .tleft{
