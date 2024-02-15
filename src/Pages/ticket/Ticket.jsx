@@ -52,37 +52,49 @@ const Ticket = () => {
       );
     });
 
-  const handleDownloadButtonClick = () => {
-    const tempCanvas = document.createElement("canvas");
-    const tempContext = tempCanvas.getContext("2d");
-
-    const originalImage = new Image();
-    originalImage.src = imageRef.current.children[0].src;
-    const userImage = new Image();
-    userImage.src = imageRef.current.children[1].src;
-
-    originalImage.onload = () => {
-      tempCanvas.width = originalImage.width;
-      tempCanvas.height = originalImage.height;
-
-      tempContext.drawImage(userImage, 0, 0, 100, 100);
-      tempContext.drawImage(originalImage, userImage.width, 0);
-
-      tempContext.fillStyle = "white";
-      tempContext.font = "bold 48px sans-serif";
-      tempContext.textAlign = "center";
-      tempContext.textBaseline = "middle";
-      tempContext.fillText(displayedName, 1100, 475);
-
-      const dataUrl = tempCanvas.toDataURL("image/png");
-
-      const link = document.createElement("a");
-      link.href = dataUrl;
-      link.download = "output_photo.png";
-
-      link.click();
+    const handleDownloadButtonClick = () => {
+      const tempCanvas = document.createElement("canvas");
+      const tempContext = tempCanvas.getContext("2d");
+  
+      const originalImage = new Image();
+      originalImage.src = imageRef.current.children[0].src;
+      const userImage = new Image();
+      userImage.src = imageRef.current.children[1].src;
+  
+      originalImage.onload = () => {
+        tempCanvas.width = originalImage.width;
+        tempCanvas.height = originalImage.height;
+  
+        tempContext.drawImage(originalImage, 0, 0);
+  
+        tempContext.fillStyle = "white";
+        tempContext.font = "bold 48px sans-serif";
+        tempContext.textAlign = "center";
+        tempContext.textBaseline = "middle";
+        tempContext.fillText(displayedName, 1100, 475);
+  
+        // Save the current context state
+        tempContext.save();
+  
+        // Translate the context to the right by the userImage's width
+        tempContext.translate(userImage.width, 0);
+  
+        // Scale the userImage to the desired width and height
+        tempContext.drawImage(userImage, 0, 0, userImage.width / 2, userImage.height / 2);
+  
+        // Restore the previous context state
+        tempContext.restore();
+  
+        const dataUrl = tempCanvas.toDataURL("image/png");
+  
+        const link = document.createElement("a");
+        link.href = dataUrl;
+        link.download = "output_photo.png";
+  
+        link.click();
+      };
     };
-  };
+  
 
 
 
