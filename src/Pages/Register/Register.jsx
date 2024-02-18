@@ -1,5 +1,6 @@
 import React from "react";
 import "./register.css";
+import Contact from '../Contact/Contact';
 const Register = () => {
   return (
     <div className="main">
@@ -17,7 +18,7 @@ const Register = () => {
       </div>
       <div className="page2">
         <div className="ind">
-          <div className="title"><h1>INDUCTION 2024</h1></div>
+          <div className="title"><h1>INDUCTION 2024</h1>
           <div className="ab">
             "Innovation is the ability to see change as an opportunity" Idea
             Innovation Cell , the official Idea Club of VSSUT, Burla , is a
@@ -27,6 +28,7 @@ const Register = () => {
             community,We are delighted to launch the Official Induction
             programme for the year 2023! Click on the link below to register for
             the Induction programme.
+          </div>
           </div>
           <button class="glow-on-hover" type="button">Register Now!</button>
           <div className="details">
@@ -76,21 +78,14 @@ const Register = () => {
           </div>
         </div>
       </div>
-      <div className="page4">
-        <div className="con">
-       <div className="contactus"><h1>CONTACT US</h1></div>
+      <div className="tpage4">
+        
+        <div className="contactus"><h1>CONTACT US</h1></div>
        <div className="in">For help in any kind of Query related to the  Induction-2024 you may contact :</div>
-       </div>
-       <div className="cc">
-        <div className="card1">
-          <div className="c"></div>
-          <div className="c"></div>
-        </div>
-        <div className="card2">
-        <div className="c"></div>
-          <div className="c"></div>
-        </div>
-        </div>
+       
+
+    <Contact/>
+       
       </div>
     </div>
   );

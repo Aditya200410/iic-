@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
 .page1{
     width: 100%;
     height: 100vh;
@@ -14,6 +15,7 @@
     background: url(https://www.ideainnovationcell.org/Induction%202023/Images/induction-poster.png);
     width: 100%;
     height: 90vh;
+    object-fit: fill;
 }
 .info{
     display: flex;
@@ -23,6 +25,7 @@
 align-items: center;
 justify-content: center;
    font-size: xx-large;
+   color: white;
 }
 .bt{
     display: flex;
@@ -78,21 +81,32 @@ background: linear-gradient(90deg, rgba(54,65,129,1) 100%, rgba(35,74,152,1) 100
     background: rgb(0,114,194);
     background: linear-gradient(90deg, rgba(0,114,194,1) 0%, rgba(52,86,129,1) 100%, rgba(0,255,154,1) 100%);
     display: flex;
-    border-radius: 10%;
+    border-radius: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
     -webkit-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
     -moz-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85); padding: 10%;
-    width: 700px;
+    width: 600px;
     height: 600px;
     margin: 5% 5%  5% ;
 }
 .title{
     margin-top: 5%;
-    padding: 5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
     color: antiquewhite;
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    text-align: center;
 }
 .glow-on-hover {
     width: 150px;
@@ -223,12 +237,41 @@ a{
     width: 100%;
 }
 
-.page4{
-    padding: 5%;
-    width: 100%;
-    height: 80vh;
-    display: flex;
+
+@media only screen and (max-width: 768px) {
+    
+    .info{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
     justify-content: center;
-    flex-direction: column;
-    align-items:space-between; 
+       font-size: xx-large;
+       color: white;
+    }
+    .ab{
+        display: flex;
+        justify-content: center;
+        margin-left: 3%;
+        margin-right: 3%;
+
+        text-align: center;
+    }
+    .ind{
+        background: rgb(0,114,194);
+        background: linear-gradient(90deg, rgba(0,114,194,1) 0%, rgba(52,86,129,1) 100%, rgba(0,255,154,1) 100%);
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
+        -webkit-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85);
+        -moz-box-shadow: 24px 10px 44px -1px rgba(0,0,0,0.85); padding: 10%;
+        width: 95vw;
+        height: 600px;
+        margin: 5% 5%  5% ;
+    }
 }
