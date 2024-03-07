@@ -15,7 +15,7 @@ import Media from "./Pages/MediaCoverage/MediaCoverages";
 import Gallery from "./Pages/Gallery/Gallery";
 import MetaFisco from "./Pages/metafiasco/MetaFisco";
 import Ticket from "./Pages/ticket/Ticket.jsx";
-
+import Waterbucket from "./Pages/waterbucket/waterbucket";
 import Form from "./Pages/form/Form";
 
 import "../src/fonts/potra-font.css";
@@ -42,8 +42,7 @@ const App = () => {
           <Route path="/meta" element={<MetaFisco />} />
           <Route path="/register" element={<Register/>} />
           <Route path="/form" element={<Form/>} />
-          
-         
+          <Route path="/waterbucket" element={<Waterbucket/>} />
         </Routes>
       <Footer />
       

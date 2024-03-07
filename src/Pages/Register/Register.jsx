@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import video from "../../video.webm"
+
 import "./register.css";
 import Contact from '../Contact/Contact';
 const Register = () => {
-  const [showVideo, setShowVideo] = React.useState(false);
+  
   return (
     <div className="main">
       <div className="page1">
@@ -13,7 +13,7 @@ const Register = () => {
             <h3>Be a part of the Idea Innovation Cell !</h3>
             <div className="bt">
              <a href="/form"> <button className="getstarted">get started</button></a>
-             <a > <button className="watchvideo"  onClick={() => setShowVideo(true)}>watch video</button></a>
+             <a > <button className="watchvideo">watch video</button></a>
              
             </div>
            

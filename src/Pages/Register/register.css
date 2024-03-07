@@ -6,7 +6,7 @@
 }
 
 .page1{
-    background: url(https://www.ideainnovationcell.org/Induction%202023/Images/induction-poster.png);
+    background: url();
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -279,7 +279,7 @@ a{
         margin: 5% 5%  5% ;
     }
     .page1{
-    background: url(https://www.ideainnovationcell.org/Induction%202023/Images/induction-poster.png);
+    background: url();
     object-fit: cover;
     width: 100%;
     height: 100vh;
